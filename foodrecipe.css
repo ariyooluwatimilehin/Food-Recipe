@@ -1,0 +1,47 @@
+body{
+    background-color: orange;
+}
+#mealSearch{
+    margin-top: 2cm;
+    border: 0.5cm solid darkgreen;
+    border-radius: 2cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px 15px;
+    padding-bottom: 4rem;
+}
+
+p{
+    text-align: center;
+}
+
+#searchInput{
+    margin: 0.9cm 0;
+}
+
+#searchInput input{
+    border-top-left-radius: 0.5cm;
+    border-bottom-left-radius: 0.5cm;
+    height: 1.75rem;
+    width: 10cm;
+    padding-left: 1rem;
+    font-size: large;
+    border-color: darkgreen;
+}
+
+#btn{
+    border-top-right-radius: 0.5cm;
+    border-bottom-right-radius: 0.5cm;
+    height: 2.19rem;
+    margin-left: -0.13cm;
+    border-left: none;
+    background-color: darkgreen;
+    font-size: large;
+    border: none;
+}
+
+/* #lastsentence{
+    margin-bottom: 10cm;
+} */
